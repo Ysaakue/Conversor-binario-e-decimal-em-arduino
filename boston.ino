@@ -111,7 +111,7 @@ void loop()
   //         1234567890123456
   lcd.setCursor(0,1);
   lcd.print("A=b->d B=d->b ");
-  //         01234567890123456
+  //         1234567890123456
   oper = readVal();
   
   if(oper == "A")
